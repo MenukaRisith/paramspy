@@ -4,7 +4,7 @@ from typing import List, Dict, Any, Tuple
 from pathlib import Path
 
 # Path to the GF mappings file
-MAPPING_PATH = Path(_file_).parent.parent / "data" / "gf_mappings.yaml"
+MAPPING_PATH = Path(__file__).parent.parent / "data" / "gf_mappings.yaml"
 
 def _load_gf_mappings() -> Dict[str, List[str]]:
     """Loads and returns the GF tag mappings from the YAML file."""
