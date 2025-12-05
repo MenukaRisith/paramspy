@@ -4,7 +4,7 @@
 
 | Version | Python | License | Status |
 | :---: | :---: | :---: | :---: |
-| [![PyPI](https://img.shields.io/pypi/v/paramspy.svg)](https://pypi.org/project/paramspy/) | [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/) | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) | *Ready for Bug Bounty* |
+| [![PyPI](https://img.shields.io/pypi/v/paramspy.svg)](https://pypi.org/project/hsignal-paramspy/) | [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/) | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) | *Ready for Bug Bounty* |
 
 *paramspy* is an ultra-fast, high-signal reconnaissance tool that automates the discovery of hidden and target-specific parameters by analyzing *10+ years of Wayback Machine data*. It bypasses the time-wasting process of running massive, generic wordlists, providing you with a clean, actionable list of production-used parameters in seconds.
 
