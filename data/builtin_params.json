@@ -1,0 +1,23 @@
+[
+    "redirect_uri",
+    "return_to",
+    "callback",
+    "next",
+    "continue",
+    "destination",
+    "url",
+    "target",
+    "shop",
+    "hmac",
+    "signature",
+    "locale",
+    "checkout_url",
+    "discount_code",
+    "state",
+    "token",
+    "data",
+    "path",
+    "q",
+    "s",
+    "p"
+]

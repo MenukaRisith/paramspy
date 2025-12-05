@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paramspy"
+version = "0.1.0"
+description = "The high-signal parameter discovery tool. Finds target-specific, production-used parameters from 10+ years of Wayback data."
+readme = "README.md"
+authors = [
+    { name = "Menuka Risith", email = "menuka.contact@gmail.com" },
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Intended Audience :: Developers",
+]
+keywords = ["bug-bounty", "hacking", "recon", "security", "parameter-discovery"]
+requires-python = ">=3.9"
+
+# Dependencies pulled from your requirements.txt
+dependencies = [
+    "httpx>=0.27.0",
+    "typer[all]>=0.12.3", # [all] includes rich for beautiful output
+    "sqlite-utils>=3.35.0",
+    "PyYAML>=6.0.1",
+    "urllib3>=2.2.1",
+    "python-dotenv>=1.0.1",
+    "pydantic>=2.6.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/MenukaRisith/paramspy"
+Documentation = "https://github.com/MenukaRisith/paramspy"
+Source = "https://github.com/MenukaRisith/paramspy"
+
+# Define the command-line entry point
+# This tells Python that when 'paramspy' is run, it executes paramspy.cli:app
+[project.scripts]
+paramspy = "paramspy.cli:app"

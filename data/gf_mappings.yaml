@@ -1,0 +1,67 @@
+# paramspy/data/gf_mappings.yaml
+# Maps extracted parameter names to common Gf-pattern categories.
+# Used for advanced JSON output mode.
+
+redirect:
+  - 'url'
+  - 'uri'
+  - 'continue'
+  - 'return'
+  - 'next'
+  - 'target'
+  - 'redir'
+  - 'callback'
+  - 'returnto'
+  - 'redirect_uri'
+  - 'return_to'
+
+xss:
+  - 'q'
+  - 's'
+  - 'query'
+  - 'name'
+  - 'search'
+  - 'text'
+  - 'input'
+  - 'callback'
+
+lfi:
+  - 'file'
+  - 'filename'
+  - 'path'
+  - 'folder'
+  - 'page'
+  - 'view'
+  - 'template'
+
+ssti:
+  - 'template'
+  - 'name'
+  - 'data'
+  - 'content'
+  - 'message'
+
+rce:
+  - 'cmd'
+  - 'command'
+  - 'exec'
+  - 'execute'
+  - 'host'
+
+sql:
+  - 'id'
+  - 'uid'
+  - 'user'
+  - 'product'
+  - 'category'
+  - 'item'
+
+logic:
+  - 'discount_code'
+  - 'cart_token'
+  - 'coupon'
+  - 'shop'
+  - 'token'
+  - 'hmac'
+  - 'signature'
+  - 'timestamp'
