@@ -1,0 +1,65 @@
+# -------------------------------------------------------------------
+# paramspy .gitignore
+# -------------------------------------------------------------------
+
+### Python Specific ###
+# Byte-compiled / optimized / setuptools files
+_pycache_/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+.tox/
+.venv/  # Virtual environment directory (Crucial to ignore)
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+
+# Documentation files
+_build/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+### Operating System and IDE Specific ###
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Testing & Coverage ###
+.coverage
+.coverage.*
+htmlcov/
+.nox/
+
+### User-Specific Files (Private) ###
+# Configuration files that may contain secrets (e.g., API keys)
+.env
+.flaskenv
+.secrets.toml
+
+### Project Specific: paramspy Cache and Data ###
+# Ignore the local cache directory used by paramspy/core/cache.py
+# This ensures that cached data is not committed to the repository.
+.paramspy/  # Location: ~/.paramspy/cache/
+
+# SQLite Database used for caching
+paramspy_cache.db
+
+### Packaging and Distribution ###
+.pypirc
